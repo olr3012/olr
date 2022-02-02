@@ -1,0 +1,186 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+#text{
+  text-align:justify;
+}
+
+/*div#slider { width: 80%; max-width: 1000px; } 
+
+div#slider figure {
+  position: relative; 
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  text-align: left;
+}
+
+div#slider figure img { width: 20%; height: auto; float: left;}
+div#slider { width: 80%; max-width: 150px; overflow: hidden }
+@keyframes slidy {
+  0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
+}
+div#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  left: 0;
+  text-align: left;
+  animation: 5s slidy infinite;
+}*/
+
+#photos{
+  padding-top: 15px;
+  position: relative;
+  left: 80px;
+  width: 80px;
+  height: 80px;
+}
+.titletext{
+  font-size: 14pt;
+  text-align: center;
+  font-weight: 600;
+}
+
+#col{
+  border-radius: 10px;
+  border: 1px solid grey;
+  height: 360px;
+}
+
+#col1{
+  border-radius: 10px;
+  border: 1px solid grey;
+  height: 220px;
+}
+
+#moi{
+  position: absolute;
+  border-radius: 15px;
+  top: 500px;
+}
+#black{
+  color: black;
+}
+#space{
+  margin-right: 15px;
+}
+#see{
+  padding: 10px;
+  border-radius: 5px;
+}
+#titre{
+  color: #1a237e;
+  font-weight: 600;
+}
+
+#titre1{
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+#titre2{
+  font-weight: 600;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+
+#titre3{
+  color: #1a237e;
+}
+
+#nav a{
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+#nav li:hover{
+  background: #c5cae9;
+  transition: 0.3s;
+}
+#photomove{
+  position: absolute;
+  bottom: 10px;
+  right: 200px;
+}
+
+#logo-container{
+  font-weight: 400;
+}
+#linkedin i, #linkedin a{
+  color: black;
+}
+#modern{
+  font-weight: 400;
+  position: relative;
+  top: 150px;
+}
+#modern1{
+  font-weight: 400;
+}
